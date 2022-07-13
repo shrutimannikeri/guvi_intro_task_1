@@ -1,0 +1,40 @@
+ object and internel representation in javascript=>
+
+Object: 
+    An object is a standalone entity, with properties and type.
+    Its having key/value pair data collection .
+    Obeject having label based index .(string fromat)
+    we have to use for in  loop for object
+Syntax:
+    var oj_name={} //its called empty obejct 
+
+    We can access oject value in 2 ways 
+    1. Dot Notation ->obj_name.property_name
+    2.[] Notation -> onj_name["property_name"]
+
+Creating Objects in JavaScript:
+    By object literal
+    By creating instance of Object directly (using new keyword)
+
+By object literal:
+The syntax of creating object using object literal is given below:
+
+object={
+    propert1: val1,
+    property2: val2
+
+}   
+
+Property and value is separated by colon(:)
+
+Example: 
+    var student={
+        name: "shruti",
+        course: "MERN"
+    }
+
+By creating instance of Object directly (using new keyword):
+    The syntax of creating object directly is given  below:
+
+    var object=new Object();
+
